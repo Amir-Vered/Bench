@@ -31,13 +31,6 @@ tmp/
 *.tmp
 _autosave-*
 
-# KiCad generated manufacturing files
-*.gbr
-*.drl
-*.pos
-*.rpt
-*.zip
-
 # Firmware build files
 .pio/
 *.elf
