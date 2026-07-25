@@ -1,0 +1,15 @@
+menu "Bench Configuration"
+
+    config BENCH_WIFI_SSID
+        string "Wi-Fi SSID"
+        default "YOUR_WIFI_NAME"
+        help
+            Wi-Fi network name used by Bench firmware.
+
+    config BENCH_WIFI_PASSWORD
+        string "Wi-Fi password"
+        default "YOUR_WIFI_PASSWORD"
+        help
+            Wi-Fi password used by Bench firmware.
+
+endmenu

@@ -8,14 +8,7 @@ Thumbs.db
 *.swp
 *.swo
 
-# Python
-__pycache__/
-*.pyc
-.venv/
-venv/
-env/
-
-# Build/output files
+# General build/output files
 build/
 dist/
 out/
@@ -31,15 +24,27 @@ tmp/
 *.tmp
 _autosave-*
 
-# Firmware build files
-.pio/
-*.elf
-*.bin
-*.hex
-*.map
+## ESP-IDF specific files
 
-# Media/project working files
-*.mov
-*.mp4
-*.psd
-*.ai
+# ESP-IDF generated build outputs
+**/build/
+**/managed_components/
+
+# ESP-IDF local config with secrets
+**/sdkconfig
+**/sdkconfig.old
+**/sdkconfig.defaults.local
+
+## Python specific files
+
+# Python virtual environments
+.venv/
+**/.venv/
+
+# Python build/cache files
+__pycache__/
+**/__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
