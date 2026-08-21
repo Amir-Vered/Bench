@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  🎥 YouTube video coming soon &nbsp;•&nbsp; 🌐 Project writeup coming soon
+  🎥 <a href="https://youtu.be/uZiKh8IRC8s">Video</a> &nbsp;•&nbsp; 🌐 <a href="https://amirvered.com/project/bench">Writeup</a>
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@
 
 Here's the pitch:
 
-TLDR; wires are annoying, let's put Bench in the middle of the Arduino workflow.
+TL;DR wires are annoying, let's put Bench in the middle of the Arduino workflow.
 
 I love Arduino, it's perfect for prototyping your projects before making your PCBs. 
 But, idk about you, the most annoying thing to me is the fact that the board is tied to my laptop.
